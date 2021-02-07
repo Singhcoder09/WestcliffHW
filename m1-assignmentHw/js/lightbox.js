@@ -73,5 +73,6 @@ $(document).ready(function(){
         });
         $('.box').fadeOut();
     });
+    
 
 });
