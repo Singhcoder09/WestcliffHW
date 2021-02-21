@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Great Cliffs of California</title>
+
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1, shrink-to-fit = no">
+      
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    >
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    
+  </head>
+  <body id="home">
+    <div id="container">
+    <header>
+      <div class="main-header sticky-top">
+
+        <nav  class=" main-menu navbar navbar-expand-lg navbar-light">
+          <div class="container nav-container">
+            <a class="navbar-brand" href="#">
+                  <img src="images/logo.png" alt="Great Cliffs Logo" class="nav-logo">
+                </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse nav-collapse-menu" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home
+                        <span class="sr-only">(current)</span>
+                      </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Cliffs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="activities.html">Activities</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </div>
+    
+    </header>
+
+    <main>
+      <div class="box">
+      <h1>Contacting Us</h1>
+      <p>
+      You can drop by the visitors information center at the cliff site that you plan on visiting. They are open
+      7 days a week from 8.00AM to 5.00PM. You can also contact us directly if you need additional information about 
+      the Cliffs, Hours of Operations, Facilities or questions about this site using one of the following:
+      </p>
+          
+      <div class="contactinfo">
+          <div>
+              <div class="phone">Phone:</div>
+              <div>(800)GCLIFFS</div>    
+          </div>
+          <div>
+              <div class="email">Email:</div>
+              <div>info@greatcliffs.com</div>
+          </div>
+      </div>
+      <div class="container" style="border:2px solid #9ed034;">
+      <form action="/contact">  
+      <fieldset>  
+          <legend>Contact Form</legend>
+          
+            <div class="form-group">
+                <!-- <label>Name:</label> -->
+                <input class="form-control" type="text" name="name" placeholder="Name:"> 
+              </div> 
+                <!-- <label>Email:</label>   -->
+              <div class="form-group">  
+                <input class="form-control" type="email" name="email" placeholder="Email:">
+              </div>   
+                <!-- <label>Phone:</label> -->
+              <div class="form-group">  
+                <input class="form-control" type="text" name="phone" placeholder="Phone:"> 
+              </div>
+          
+
+          <div class="selectmenu">
+            <label>Which Cliff are you inquiring?</label>  
+            <select class="form-control">
+                <option>West Cliff</option>
+                <option>North Cliff</option>
+                <option>East Cliff</option>
+                <option>South Cliff</option>
+            </select>
+        </div>
+
+        <!-- <select class="custom-select custom-select-sm">
+          <option selected>Open this select menu</option>
+          <option value="1">West Cliff</option>
+          <option value="2">North Cliff</option>
+          <option value="3">South Cliff</option>
+        </select> -->
+          
+          <div>
+              <label>How should we contact you?</label>  
+              <!-- <input type="radio" name="contact" value="email" checked>Email 
+              <input type="radio" name="contact" value="phone">Phone -->
+              <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                <label class="custom-control-label" for="customRadioInline1">Email</label>
+              </div>
+              <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                <label class="custom-control-label" for="customRadioInline2">Phone</label>
+              </div>
+          </div>
+
+          
+          
+          <div class="commentbox form-group">
+              <label>How did you hear about us:</label>  
+              <textarea class="form-control"></textarea>
+          </div>
+          <!-- Random Codes -->
+          <!-- <div class="randomcode">
+              <input id="codeentered" type="text" name="randomcode" placeholder="Enter characters" maxlength="8">
+              <p id="codes"></p>
+          </div> -->
+          <!-- <button type="button" class="btn btn-light">Light</button> -->
+          <div class="form-group">
+            <div class="button">
+              <input class="form-control col-md-11 col-sm-12" id="submit" type="submit" value="sign-up">
+            </div> 
+            <!-- <button class="btn btn-lg btn-outline-dark col-md-4 col-sm-1" type="submit">
+              sign-up
+            </button> -->
+          </div> 
+      </fieldset>  
+      </form>
+    </div>
+    </div>
+    </main>
+    
+    <section>
+
+      <!-- <div class="row"> -->
+        <ul id="partners" class="row">
+          
+              <div class="col-lg-2 col-md-4 col-sm-6 col-12 my-1">
+                <li class="partner">
+                    <img src="images/partners/partner-bustour.png" alt="Partner Bus Tours">
+                </li>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-6 col-12 my-1">
+                <li class="partner">
+                    <img src="images/partners/partner-cabinrental.png" alt="Partner Cabin Rental">
+                </li>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-6 col-12 my-1">  
+                <li class="partner">
+                    <img src="images/partners/partner-campingadv.png" alt="Partner Camping Adventure">
+                </li>
+              </div>
+              <div class="col-lg-2 col-md-4  col-sm-6 col-12 my-1">  
+                <li class="partner">
+                    <img src="images/partners/partner-collegetours.png" alt="Partner College Tours">
+                </li>
+              </div>
+              <div class="col-lg-2 col-md-4  col-sm-6 col-12 my-1">    
+                <li class="partner">
+                    <img src="images/partners/partner-rentalbike.png" alt="Partner Bike Rentals">
+                </li>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-6 col-12 my-1">   
+                <li class="partner">
+                    <img src="images/partners/partner-tourgroup.png" alt="Partner Tour Group">
+                </li>
+              </div>  
+          
+       </ul>
+      <!-- </div> -->
+    </section>
+
+    <footer>
+      <!-- Nondisclaimer -->
+      <div id="nondisclaimer">
+        <div class="copy">&copy; Copyright 2021 :: GreatCliffs.com</div>
+        <div class="social">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-twitter"></a>
+        </div>
+      </div>
+      <!-- End Nondisclaimer -->
+
+      <!-- Disclaimer -->
+      <div id="disclaimer">
+        <p class="bottom-p">
+          This website is designed and created solely for educational purposes
+          only at Westcliff University. All contents are not intended for any
+          commercial gain or use.
+        </p>
+      </div>
+      <!-- End Disclaimer -->
+    </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
