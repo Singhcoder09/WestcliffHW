@@ -1,0 +1,278 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+#leftside {
+    float:left;
+    width: 30%;
+    min-height: 1500px;
+    background-color:rgb(77, 192, 154);
+}
+#rightside {
+    float:left;
+    width: 70%;
+    min-height: 1500px;
+    background-color:rgb(238, 226, 192);
+    position:relative;
+}
+#container {
+    background-color:rgba(255, 255, 255, 0.85);
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    /* min-width: 1200px; */
+    width: 80%;
+    min-height: 1350px;
+    border-radius: 0.7em;
+}
+header {
+    height: 50px;
+    background-color:rgba(231, 229, 229, 0.5);
+    font-size: 2.75em;
+    padding:0.5em;
+    color:rgb(216, 150, 7);
+}
+/* header span {
+    font-family: 'Sacramento', cursive;
+} */
+.navbar-brand {
+    font-family: 'Sacramento', cursive !important;
+    color:rgb(216, 150, 7) !important;
+    font-size: 2.75em !important;
+}
+main {
+    position: relative;
+}
+
+main .photos img {
+    margin: 0.75em;
+    border: 0.85em solid rgb(255, 255, 255);
+}
+section.blogposts {
+    position: absolute;
+    left: 20%;
+    top: 70px;
+    padding: 50px;
+}
+main .post {
+    margin: 25px;
+    padding: 25px;
+    border: 2px solid rgba(83, 78, 58, 0.6);
+    border-radius: 0.5em;
+}
+footer {
+    position: absolute;
+    bottom: -130px;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.85em;
+}
+/* imges */
+.post img{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+/* modal */
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background:rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid gray;
+    width: 25%;
+}
+/* .modal h4 {
+    font-weight: bold;
+} */
+.modal .close-button {
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    /* needs to look OK with or without scrollbar */
+    right: 20px;
+    border: 0;
+    background:rgba(0, 0, 0, 0.0);
+    color: white;
+    padding: 5px 10px;
+    font-size: 1.3rem;
+ }
+ .foodie {
+     font-weight: bold;
+     font-size: 14px;
+ }
+ .modalInfo {
+     margin-bottom: 15px;
+     padding-bottom: 15px;
+     text-align: left;
+
+ }
+ .modalInfo p {
+     padding-bottom: 1px;
+     margin-bottom: 1px;
+     
+ }
+ .modalDisc {
+     font-size: 13px;
+ }
+ .component4 {
+     width: 100%;
+ }
+@media (min-width: 780px) {
+    main h2 {
+        position: absolute;
+        left: 22%;
+        top: 30px;
+        margin: 25px 0 200px 50px;
+        color:rgb(60, 190, 160);
+        text-transform: uppercase;
+    }
+}
+ @media (max-width: 779px) {
+    main h2 {
+        position: absolute;
+        right: 10% !important;
+        top: 30px;
+        margin: 25px 0 200px 50px;
+        color: rgb(60, 190, 160);
+        text-transform: uppercase;
+    }
+    section.blogposts {
+        position: absolute;
+        left: 20%;
+        top: 70px;
+        padding: 50px;
+        margin-top: 50px;
+    }
+ }
+
+ @media (max-width: 768px) {
+    #leftside {
+        float: left;
+        width: 30%;
+        height: 1900px !important;
+        background-color: rgb(77, 192, 154);
+    }
+    #rightside {
+        float: left;
+        width: 70%;
+        height: 1900px !important;
+        background-color: rgb(238, 226, 192);
+        position: relative;
+    }
+    #container {
+        background-color: rgba(255, 255, 255, 0.85);
+        position: absolute;
+        top: 15%;
+        left: 15%;
+        /* min-width: 1200px; */
+        width: 80%;
+        height: 1700px !important;
+        border-radius: 0.7em;
+    }
+    footer {
+        position: absolute;
+        bottom: -900px;
+        height: 50px;
+        width: 100%;
+        text-align: center;
+        font-size: 0.85em;
+    }
+ }
+
+
+ @media (max-width: 414px) {
+    #component2 h2{
+        /* visibility: hidden; */
+        /* display: block;
+        margin-top: 10px; */
+        font-size: 20px;
+    }
+    #leftside {
+        float: left;
+        width: 30%;
+        height: 2400px !important;
+        background-color: rgb(77, 192, 154);
+    }
+    #rightside {
+        float: left;
+        width: 70%;
+        height: 2400px !important;
+        background-color: rgb(238, 226, 192);
+        position: relative;
+    }
+    #container {
+        background-color: rgba(255, 255, 255, 0.85);
+        position: absolute;
+        top: 15%;
+        left: 15%;
+        /* min-width: 1200px; */
+        width: 80%;
+        height: 2300px !important;
+        border-radius: 0.7em;
+    }
+    footer {
+        position: absolute;
+        bottom: -1670px;
+        height: 50px;
+        width: 100%;
+        text-align: center;
+        font-size: 0.85em;
+    }
+    #vueapp {
+        padding-left: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+    }
+ }
+
+ @media (max-width: 375px) {
+    #component2 h2{
+        /* visibility: hidden; */
+        /* display: block;
+        margin-top: 10px; */
+        font-size: 15px;
+    }
+    #leftside {
+        float: left;
+        width: 30%;
+        height: 2800px !important;
+        background-color: rgb(77, 192, 154);
+    }
+    #rightside {
+        float: left;
+        width: 70%;
+        height: 2800px !important;
+        background-color: rgb(238, 226, 192);
+        position: relative;
+    }
+    #container {
+        background-color: rgba(255, 255, 255, 0.85);
+        position: absolute;
+        top: 15%;
+        left: 15%;
+        /* min-width: 1200px; */
+        width: 80%;
+        height: 2600px !important;
+        border-radius: 0.7em;
+    }
+    footer {
+        position: absolute;
+        bottom: -1980px;
+        height: 50px;
+        width: 100%;
+        text-align: center;
+        font-size: 0.85em;
+    }
+    #vueapp {
+        padding-left: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+    }
+ }
