@@ -1,0 +1,12 @@
+{
+  "name": "wk1-day1-homework",
+  "version": "1.0.0",
+  "description": "my-hw",
+  "main": "server_task1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server_task1"
+  },
+  "author": "Gagandeep Singh",
+  "license": "ISC"
+}
