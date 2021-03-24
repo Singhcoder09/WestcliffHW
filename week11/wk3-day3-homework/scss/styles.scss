@@ -1,0 +1,80 @@
+/* Variables */
+@import "colors.scss";
+@import "nav.scss";
+
+@mixin imgRight {
+    width: 695px;
+    height: 515px;
+}
+
+/* Nest Main */
+main {
+    width: 1350px;
+    min-height:535px;
+    background-color: $color-white;
+    color: $color-black;
+
+    section {
+        float: left;
+        clear: none;
+    }
+
+    .text {
+        margin-top: 125px;
+    }
+
+    #intro-text {
+        color: $color-black;
+        background-color: $color-grey;
+        width: 635px;
+        height: 515px;
+        margin: 10px 0 10px 10px;
+        text-align: center;
+
+        span {
+            font-family: 'Sacramento', cursive;
+            color: $color-black;
+            font-size: 35px;
+        }
+
+        h3 {
+            
+            font-family: Arial, Helvetica, Sans-Serif;
+            font-weight: bold;
+            color: $color-black;
+            font-size: 35px;
+        }
+
+        p{
+            color: $color-black;
+        }
+    }
+
+    #intro-image { 
+        @include imgRight;
+        margin: 10px 10px 10px 0;
+    
+        img {
+            @include imgRight;
+        }
+    }
+
+}
+
+
+
+body {
+    background-color: $color-orange;
+}
+// Mixin or Extend for button
+
+button {
+    background-color: $color-orange;
+    color: $color-white;
+    height: 30px;
+}
+
+footer {
+    margin: 10px 10px;
+}
+

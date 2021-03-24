@@ -1,0 +1,17 @@
+/* Nest Nav */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: white; }
+
+li {
+  float: left; }
+
+li a {
+  display: inline-block;
+  text-align: left;
+  padding: 2px 2px;
+  text-decoration: none;
+  color: white; }
